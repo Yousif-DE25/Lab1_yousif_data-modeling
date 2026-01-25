@@ -1,1 +1,61 @@
-fysisk modell - YrkesCo
+Fysisk modell - YrkesCo
+
+Program
+- program_id (PK)
+- programnamn
+- total_poäng
+- utbildningsledare_id (FK)
+
+Utbildningsledare 
+- utbildningsledare_id (PK)
+- förnamn
+- efternamn
+
+Klass 
+- klass_id (PK)
+- klassnamn
+- startdatum
+- program_id (FK)
+
+Student
+- student_id (PK)
+- förnamn
+- efternamn
+- email
+- klass_id
+
+Utbildare 
+- utbildare_id (PK)
+- förnamn
+- efternamn
+
+Kurs 
+- kurs_id (PK)
+- kursnamn
+- kurskod
+- poäng 
+- beskrivning
+- utbildare_id (FK)
+
+Konsult
+- konsult_id (PK)
+- utbildare_id (FK)
+- företag_id (FK)
+- timarvode
+
+Företag 
+- företag_id (PK)
+- företagsnamn
+- organisationsnummer
+- har_f_skatt
+- adress
+
+Personuppgifter
+- personuppgifter_id (PK)
+- personnummer
+
+Kurs_Utbildare
+- kurs_id
+- utbildare_id
+
+Tredje normalformen
