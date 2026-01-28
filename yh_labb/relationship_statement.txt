@@ -1,8 +1,8 @@
 Relationship statments - YrkesCo
 
 Program -< Klass 
-- Ett program har en eller flera klasser (1:M)
-- En klass tillhör ett program (M:1)
+- Ett program har en eller tre klasser (1:3)
+- En eller tre klasser tillhör ett program (3:1)
 
 Utbildningsledare - Program
 - En utbildningsledare har ansvar för ett program (1:1)

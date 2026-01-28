@@ -2,7 +2,7 @@ Logisk modell - YrkesCo
 
 Program
 - Ett program representerar en utbildning
-- Ett program kan ha en eller flera klasser
+- Ett program kan ha en eller tre klasser
 - Ett program har bara en utbildningsledare
 
 Klass 
